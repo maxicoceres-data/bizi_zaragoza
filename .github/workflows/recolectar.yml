@@ -11,5 +11,5 @@ jobs:
           python-version: "3.13"
       - run: pip install -r requirements.txt
         name: Run requirements
-      - run: python src/snapshot.py
+      - run: python src/snapshots.py
         name: Run Workflow
